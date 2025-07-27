@@ -1,0 +1,40 @@
+
+
+2025-07-08 14:21:00 错误使用 Simulink.findVars
+无法编译模型 '<a href="matlab:open_system ('Simple_Model_Packaging_7')">Simple_Model_Packaging_7</a>'。缓存的结果可能不完整。
+出错 simulink.sim.Variables/keys
+出错 simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+出错 simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+出错 simulink.ui.control.VariableTuner/updateGUI
+出错 simulink.ui.control.VariableTuner/update
+出错 matlab.ui.componentcontainer.ComponentContainer/executeUpdate
+原因:
+    错误使用 Simulink.findVars
+    计算 block_diagram '<a href="matlab:open_system ('Simple_Model_Packaging_7')">Simple_Model_Packaging_7</a>' 的 <a href="matlab:Simulink.internal.OpenCallbackParamsDialog(['Simple_Model_Packaging_7'],'InitFcn');">'InitFcn'</a> 回调时出错。
+    回调字符串为 'Parameter_Initialize_7'
+    
+    出错 simulink.sim.Variables/keys
+    
+    出错 simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+    
+    出错 simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+    
+    出错 simulink.ui.control.VariableTuner/updateGUI
+    
+    出错 simulink.ui.control.VariableTuner/update
+    
+    出错 matlab.ui.componentcontainer.ComponentContainer/executeUpdate
+        错误使用 Simulink.findVars
+        无法识别的字段名称 "user_defined"。
+        
+        出错 simulink.sim.Variables/keys
+        
+        出错 simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+        
+        出错 simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+        
+        出错 simulink.ui.control.VariableTuner/updateGUI
+        
+        出错 simulink.ui.control.VariableTuner/update
+        
+        出错 matlab.ui.componentcontainer.ComponentContainer/executeUpdate
